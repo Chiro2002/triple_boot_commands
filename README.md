@@ -1,5 +1,6 @@
 # Tripple Boot Commands
-
+ Any resemblance to sentient operating systems is purely coincidental. If your VM starts grooving or demanding a coffee break, blame its newfound personality – we just provided the stage XD!
+ 
 ## Introduction
 In this repository, we provide commands to set up a triple boot system with Windows, Solaris, and Ubuntu. The process involves creating virtual disk images for each operating system within VirtualBox.
 
