@@ -1,5 +1,7 @@
 # Tripple Boot Commands
- Any resemblance to sentient operating systems is purely coincidental. If your VM starts grooving or demanding a coffee break, blame its newfound personality – we just provided the stage XD!
+Virtual Disclaimer : Any resemblance to sentient operating systems is purely coincidental. If your VM starts grooving or demanding a coffee break, blame its newfound personality – we just provided the stage XD!
+
+Contributions are always welcome here, especially if you've broken a VM a few times—or if your code secretly aspires to be a virtual troublemaker. Embrace the chaos (responsibly)!
  
 ## Introduction
 In this repository, we provide commands to set up a triple boot system with Windows, Solaris, and Ubuntu. The process involves creating virtual disk images for each operating system within VirtualBox.
@@ -9,7 +11,7 @@ In this repository, we provide commands to set up a triple boot system with Wind
 - Solaris Image: Created using an existing disk (Windows VDI, 30GB).
 - Ubuntu Image: Located at the same location as the Windows VDI (90GB).
 
-## Instructions after successfully install 3 os
+## Instructions after successfully installed 3 disks images
 Follow the steps below to complete the assignment successfully.
 
 ### 1. Adding Solaris to GRUB Menu
@@ -69,7 +71,7 @@ sudo ls /mnt2
 ```
 
 ### 4. Partition Information
-Take screenshots of partition information.
+inside ubuntu take screenshots of partition information.
 ```
 cat /proc/partitions   # Screenshot (`5partitions.png`)
 df -h
